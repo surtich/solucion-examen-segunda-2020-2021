@@ -1,0 +1,14 @@
+{
+    "menu": [
+      { "id": 1, "title": "Programs", "withSubmenu": false },
+      { "id": 2, "title": "The Batch", "withSubmenu": false },
+      { "id": 3, "title": "Events", "withSubmenu": true },
+      { "id": 4, "title": "Company", "withSubmenu": true },
+      { "id": 5, "title": "Contact", "withSubmenu": false }
+    ],
+    "submenu": [
+        { "id": 1, "title": "Ambassador", "menuId": 3 },
+        { "id": 2, "title": "About", "menuId": 4 },
+        { "id": 3, "title": "Careers", "menuId": 4 }
+    ]
+  }

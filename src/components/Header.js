@@ -1,3 +1,5 @@
+import Menu from "./Menu";
+
 function Header() {
     return (
         <header className="header">
@@ -28,34 +30,7 @@ function Header() {
                 </a>
             </div>
             <nav className="nav">
-                <ul className="menu">
-                    <li className="menu__item"><a className="menu__link" href="/">Programs</a></li>
-                    <li className="menu__item"><a className="menu__link" href="/">The Batch</a></li>
-                    <li className="menu__item">
-                        <a className="menu__link" href="/">Events</a>
-                        <button type="button" className="menu__button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 10" width="18" height="10">
-                                <path d="M9 10a.997.997 0 01-.707-.293l-8-8A1 1 0 011.707.293L9 7.586 16.293.293a1 1 0 011.414 1.414l-8 8A.997.997 0 019 10z" fill="currentColor"></path>
-                            </svg>
-                        </button>
-                        <ul className="submenu">
-                            <li className="submenu__item"><a className="submenu__link" href="/">Ambassador</a></li>
-                        </ul>
-                    </li>
-                    <li className="menu__item">
-                        <a className="menu__link" href="/">Company</a>
-                        <button type="button" className="menu__button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 10" width="18" height="10">
-                                <path d="M9 10a.997.997 0 01-.707-.293l-8-8A1 1 0 011.707.293L9 7.586 16.293.293a1 1 0 011.414 1.414l-8 8A.997.997 0 019 10z" fill="currentColor"></path>
-                            </svg>
-                        </button>
-                        <ul className="submenu">
-                            <li className="submenu__item"><a className="submenu__link" href="/">About</a></li>
-                            <li className="submenu__item"><a className="submenu__link" href="/">Careers</a></li>
-                        </ul>
-                    </li>
-                    <li className="menu__item"><a className="menu__link" href="/">Contact</a></li>
-                </ul>
+                <Menu />
             </nav>
         </header>
     )
